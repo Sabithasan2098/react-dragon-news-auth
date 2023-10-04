@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const BreakingNews = () => {
   return (
     <div className="flex p-3 rounded border-2 bg-[#F3F3F3] border-dotted border-[#444444]  text-lg font-semibold ">
-      <button>
+      <div>
         <button className="btn btn-secondary">Secondary</button>
-      </button>
+      </div>
       <Marquee pauseOnHover={true} speed={100}>
         <Link className="mr-12" to={"/"}>
           I can be a React component, multiple React components, or just some
