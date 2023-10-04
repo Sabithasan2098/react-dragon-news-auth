@@ -22,6 +22,7 @@ const Navbar = () => {
       <li><NavLink to={"/carear"}>Carear</NavLink></li>  
       <li><NavLink to={"/login"}>login</NavLink></li>  
       <li><NavLink to={"/register"}>Register</NavLink></li>  
+      <li><NavLink to={"/adidct"}>Adidct</NavLink></li>  
     </>
   return (
     <div className="navbar bg-base-100">
